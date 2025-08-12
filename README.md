@@ -5,3 +5,8 @@
 
 # PC (Python)
 - UV
+```
+uv run pyinstaller --onefile --windowed --icon=bongo_middle.ico --add-data "bongo_middle.png;." .\bongo_serial.py
+
+uv run pyinstaller --onefile --windowed --add-data "bongo_middle.png;." .\bongo_serial.py
+```
